@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "672453063938",
+    "project_id": "todomedium-a05b4",
+    "storage_bucket": "todomedium-a05b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672453063938:android:593a993c86d2872c7cfe1b",
+        "android_client_info": {
+          "package_name": "br.com.empresa.todo_medium"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672453063938-nrsemfsvptg9l8uphna5u9s0pug2f4pa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.empresa.todo_medium",
+            "certificate_hash": "031b8255ea1c3259de40935fceda93c500792d28"
+          }
+        },
+        {
+          "client_id": "672453063938-pb7bjinho25iqkpslv7j6id5rnd00nk4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd2TyANOMn-mxBJDYOEpuBBXKwiheRpSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672453063938-pb7bjinho25iqkpslv7j6id5rnd00nk4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
