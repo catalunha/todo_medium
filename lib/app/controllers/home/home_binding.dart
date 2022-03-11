@@ -10,10 +10,10 @@ class HomeBinding implements Bindings {
   @override
   void dependencies() {
     Get.put<HiveConnectionFactory>(HiveConnectionFactory(), permanent: true);
-    Get.lazyPut<TaskRepository>(
-        () => TaskRepositoryImp(hiveConnectionFactory: Get.find()));
-    Get.lazyPut<TaskService>(() => TaskServiceImp(taskRepository: Get.find()));
+    Get.put<TaskRepository>(
+        TaskRepositoryImp(hiveConnectionFactory: Get.find()));
+    Get.put<TaskService>(TaskServiceImp(taskRepository: Get.find()));
 
-    Get.lazyPut<HomeController>(() => HomeController(taskService: Get.find()));
+    Get.put<HomeController>(HomeController(taskService: Get.find()));
   }
 }
