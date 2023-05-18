@@ -39,8 +39,8 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBw13Pk2q8KPpQtnYjpZ2vvrnkRO1gKKu0',
-    appId: '1:672453063938:web:4e813a15f66dbd297cfe1b',
+    apiKey: '',
+    appId: '1:672453063938:web:',
     messagingSenderId: '672453063938',
     projectId: 'todomedium-a05b4',
     authDomain: 'todomedium-a05b4.firebaseapp.com',
@@ -48,8 +48,8 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAd2TyANOMn-mxBJDYOEpuBBXKwiheRpSw',
-    appId: '1:672453063938:web:4e813a15f66dbd297cfe1b',
+    apiKey: 'AIzaSyAd2TyANOMn-',
+    appId: '1:672453063938:web:',
     messagingSenderId: '672453063938',
     projectId: 'todomedium-a05b4',
     storageBucket: 'todomedium-a05b4.appspot.com',
